@@ -23,3 +23,11 @@ The Model was to be trained for 50 epochs.
 <p>In Just 36 Epochs The mode achieved an accuracy of 98.14% on the validation set.
 The Evaluation accuracy on the Test set is 98.15%.
 </p>
+<p>
+Epoch Accuracy
+<img src="./ANN-MODEL/epoch_accuracy.svg">
+</p>
+<p>
+Epoch Loss
+<img src="./ANN-MODEL/epoch_loss.svg">
+</p>

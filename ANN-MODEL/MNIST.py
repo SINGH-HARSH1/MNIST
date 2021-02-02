@@ -12,7 +12,6 @@ mnist = keras.datasets.mnist
 
 (X_train_full, y_train_full), (X_test, y_test) = mnist.load_data()
 
-print(y_train_full.dtype)
 
 # Splitting the Train Set into Train And Validation Sets
 X_valid, X_train = X_train_full[:5000], X_train_full[5000:]

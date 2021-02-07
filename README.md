@@ -1,5 +1,6 @@
 <h1>MNIST</h1>
 <p>Machine Learning and Deep Learning models for MNIST.</p>
+<img src="Machine-Learning_Classification/DIGIT_IMAGE.png">
 
 <p>Used different machine learning and Deep Learning models on MNIST dataset. Here we have a different directories 
 containing Deep Learning(ANN-MODEL) and Machine Learning(Classification models).</p>

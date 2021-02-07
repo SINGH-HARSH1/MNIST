@@ -5,7 +5,7 @@ We will use different hyperparameter tuning methods to achieve the desired task.
 from sklearn.datasets import fetch_openml
 from sklearn.neighbors import KNeighborsClassifier
 
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, classification_report
 
 mnist = fetch_openml("mnist_784", version=1)
@@ -17,13 +17,13 @@ X, y = mnist["data"], mnist["target"]
 # print(X.shape)
 # print(y.shape)
 
-# # Plotting the First Digits from the Mnist dataset
-# plot_digit = X[0]
-# digit_image = plot_digit.reshape(28, 28)
-# plt.imshow(digit_image, cmap="binary")
-# plt.axis("off")
-# plt.savefig("DIGIT_IMAGE.png")
-# plt.show()
+# Plotting the First Digits from the Mnist dataset
+plot_digit = X[0]
+digit_image = plot_digit.reshape(28, 28)
+plt.imshow(digit_image, cmap="binary")
+plt.axis("off")
+plt.savefig("DIGIT_IMAGE.png")
+plt.show()
 
 # Splitting the dataset into training and Test Set
 X_train_full, X_test, y_train_full, y_test = X[:60000], X[60000:], y[:60000], y[60000:]
